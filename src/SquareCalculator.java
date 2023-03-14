@@ -8,7 +8,7 @@ public class SquareCalculator {
         // in the main i created the different method with their datatype and their values
         double width = Double.parseDouble(reader.nextLine());
         double height = Double.parseDouble(reader.nextLine());
-        double perimeter = (width + height)*2;
+        // double perimeter = (width + height)*2;
         double area = width*height;
 
         // in here we gonna have the user entering new values and output the new results
