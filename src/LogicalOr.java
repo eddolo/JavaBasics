@@ -1,10 +1,10 @@
 public class LogicalOr {
-    public class void main (String [] args){
-        System.out.println("Is the number less than 0 OR greater than 100?");
-        int number = 145;
-        if (number < 0 || number > 100)
+    public static void main (String [] args){
+        System.out.println("Does the analysis show a result less than 2 OR greater than 5?");
+        int number = 7;
+        if (number < 2 || number > 5)
         {
-            System.out.println("Yes!");
+            System.out.println("Yes! You should contact your GP for a follow up.");
         }
         else
         {
